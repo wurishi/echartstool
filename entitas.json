@@ -1,0 +1,54 @@
+{
+  "namespace": "echartstool",
+  "src": "lib/src",
+  "output": {
+    "javascript": "lib/echartstool/generatedExtensions.js",
+    "typescript": "lib/src/generatedComponents.ts",
+    "declaration": "lib/ext/echartstool.d.ts"
+  },
+  "alloc": {
+    "entities": 128,
+    "components": 64
+  },
+  "components": {
+    "ECharts": [
+      "div:HTMLDivElement",
+      "myChart:any"
+    ],
+    "EChartsOption": [
+      "option:any"
+    ],
+    "DatGUI": [
+      "ui:any",
+      "index:number"
+    ],
+    "SeriesType": [
+      "index:number",
+      "type:string",
+      "folder:any",
+      "subFolder:any[]"
+    ]
+  },
+  "systems": {
+    "EChartsSystem": true,
+    "GUISystem": true,
+    "SeriesTypeSystem": true,
+    "LineSeriesSystem": true,
+    "DataSystem": true,
+    "BarSeriesSystem": true,
+    "BarSeriesBackgroundStyleSystem": true,
+    "PieSeriesSystem": true,
+    "ScatterSeriesSystem": true,
+    "SeriesCommonSystem": true,
+    "EffectScatterSeriesSystem": true,
+    "RadarSeriesSystem": true,
+    "LabelSystem": true,
+    "LabelPositionSystem": true,
+    "PieLabelPositionSystem": true,
+    "TitleSystem": true,
+    "LabelLineSystem": true,
+    "PieLabelLineSystem": true,
+    "EndLabelSystem": true
+  },
+  "entities": {}
+}

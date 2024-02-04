@@ -1,0 +1,22 @@
+{
+  "name": "echartstool",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "ecs": "node lib/ecscli/index"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "vite": "^2.3.4"
+  },
+  "dependencies": {
+    "@types/dat.gui": "^0.7.6",
+    "dat.gui": "^0.7.7",
+    "echarts": "^5.1.1",
+    "jsdom": "^16.6.0",
+    "liquid.coffee": "^0.1.8",
+    "mkdirp": "^1.0.4"
+  }
+}
